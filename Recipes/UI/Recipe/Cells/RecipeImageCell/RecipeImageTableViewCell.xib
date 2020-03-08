@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="204" id="KGk-i7-Jjw" customClass="RecipeImageTableViewCell" customModule="Recipes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="240"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CocaCola" translatesAutoresizingMaskIntoConstraints="NO" id="VOl-K5-VsL">
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="238"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="238" id="8C9-AI-2pP"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aMp-ml-PV1" customClass="RoundedView" customModule="Recipes" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="135" width="372" height="127"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рецепт c очень длинным названием и сухариками, томатным перцем" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWf-Gq-H83">
+                                <rect key="frame" x="16" y="16" width="269" height="79"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.019607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HG6-wp-IMn">
+                                <rect key="frame" x="328" y="16" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HG6-wp-IMn" secondAttribute="height" multiplier="1:1" id="hsc-C2-uYe"/>
+                                    <constraint firstAttribute="height" constant="28" id="yXg-gb-fT2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" image="Like"/>
+                                <state key="selected" image="LikeFill"/>
+                                <connections>
+                                    <action selector="onLikeButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="EDL-aQ-EIB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Vi-AO-ehR">
+                                <rect key="frame" x="329.5" y="56" width="25" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="6ll-KL-HuJ"/>
+                                    <constraint firstAttribute="width" secondItem="4Vi-AO-ehR" secondAttribute="height" multiplier="15:13" id="qgD-Ye-hBX"/>
+                                </constraints>
+                                <state key="normal" image="ListFull"/>
+                                <connections>
+                                    <action selector="onTapExpandButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="hiz-mN-B7O"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.8980392157" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="HG6-wp-IMn" firstAttribute="top" secondItem="aMp-ml-PV1" secondAttribute="top" constant="16" id="1du-M3-zPB"/>
+                            <constraint firstAttribute="trailing" secondItem="HG6-wp-IMn" secondAttribute="trailing" constant="16" id="6Kp-it-pPL"/>
+                            <constraint firstItem="4Vi-AO-ehR" firstAttribute="top" secondItem="HG6-wp-IMn" secondAttribute="bottom" constant="12" id="9GY-Ks-Nez"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4Vi-AO-ehR" secondAttribute="bottom" constant="8" id="Bkp-r1-LAp"/>
+                            <constraint firstItem="XWf-Gq-H83" firstAttribute="leading" secondItem="aMp-ml-PV1" secondAttribute="leading" constant="16" id="GeV-Ee-KWs"/>
+                            <constraint firstAttribute="bottom" secondItem="XWf-Gq-H83" secondAttribute="bottom" constant="32" id="JYi-ia-ksa"/>
+                            <constraint firstItem="XWf-Gq-H83" firstAttribute="top" secondItem="aMp-ml-PV1" secondAttribute="top" constant="16" id="mtW-sW-9oH"/>
+                            <constraint firstItem="4Vi-AO-ehR" firstAttribute="centerX" secondItem="HG6-wp-IMn" secondAttribute="centerX" id="pzQ-nv-LXX"/>
+                            <constraint firstItem="HG6-wp-IMn" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XWf-Gq-H83" secondAttribute="trailing" constant="8" id="wdv-ri-euN"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="38"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="topRightCorner" value="YES"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="topLeftCorner" value="YES"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="bottomRightCorner" value="NO"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="bottomLeftCorner" value="NO"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="VOl-K5-VsL" secondAttribute="trailing" id="1qK-py-VJX"/>
+                    <constraint firstItem="VOl-K5-VsL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Esr-ZU-yDu"/>
+                    <constraint firstItem="aMp-ml-PV1" firstAttribute="bottom" secondItem="VOl-K5-VsL" secondAttribute="bottom" constant="24" id="MoH-nx-hvM"/>
+                    <constraint firstItem="VOl-K5-VsL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ndt-Hw-F9j"/>
+                    <constraint firstItem="aMp-ml-PV1" firstAttribute="trailing" secondItem="VOl-K5-VsL" secondAttribute="trailing" id="PjE-cJ-wRq"/>
+                    <constraint firstItem="aMp-ml-PV1" firstAttribute="leading" secondItem="VOl-K5-VsL" secondAttribute="leading" id="i0q-ZE-E8z"/>
+                    <constraint firstAttribute="bottom" secondItem="VOl-K5-VsL" secondAttribute="bottom" id="wkY-DI-NFA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="expandStepsButton" destination="4Vi-AO-ehR" id="LfX-em-KXv"/>
+                <outlet property="likeButton" destination="HG6-wp-IMn" id="qH4-M4-bvy"/>
+                <outlet property="recipeImage" destination="VOl-K5-VsL" id="PDp-K7-EcB"/>
+                <outlet property="roundedView" destination="aMp-ml-PV1" id="kiX-wc-ZyX"/>
+                <outlet property="titleLabel" destination="XWf-Gq-H83" id="RAk-jD-LPm"/>
+            </connections>
+            <point key="canvasLocation" x="91.200000000000003" y="274.36281859070465"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="CocaCola" width="800" height="533"/>
+        <image name="Like" width="28" height="28"/>
+        <image name="LikeFill" width="28" height="28"/>
+        <image name="ListFull" width="30" height="26"/>
+    </resources>
+</document>

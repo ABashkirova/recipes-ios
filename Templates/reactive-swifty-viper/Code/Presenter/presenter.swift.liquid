@@ -1,0 +1,22 @@
+//
+//  {{ prefix }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+class {{ module_info.name }}Presenter {
+
+    private let interactor: {{ module_info.name }}InteractorInput
+    private let router: {{ module_info.name }}RouterInput
+
+    init(interactor: {{ module_info.name }}InteractorInput, router: {{ module_info.name }}RouterInput) {
+        self.interactor = interactor
+        self.router = router
+    }
+}
+
+extension {{ module_info.name }}Presenter: {{ module_info.name }}ViewOutput {
+    
+}

@@ -1,0 +1,26 @@
+//
+//  {{ prefix }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+class {{ module_info.name }}ViewController: UIViewController {
+
+    private var presenter: {{ module_info.name }}ViewOutput!
+
+    convenience init(presenter: {{ module_info.name }}ViewOutput) {
+        self.init()
+        
+        self.presenter = presenter
+    }
+
+    // MARK: Life cycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}

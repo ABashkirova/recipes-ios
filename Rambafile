@@ -1,0 +1,28 @@
+### Headers settings
+company: sashenka.xyz
+
+### Xcode project settings
+project_name: Recipes
+xcodeproj_path: Recipes.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: Recipes
+
+# The file path for new modules
+project_file_path: Recipes/UI
+
+# The Xcode group path to new modules
+project_group_path: Recipes/UI
+
+### Dependencies settings section
+podfile_path: Podfile
+cartfile_path: Cartfile
+
+### Templates
+catalogs:
+- 'https://gitlab.com/sshnk/generamba-templates/'
+templates:
+- {name: swifty_viper}
+- {name: reactive-swifty-viper}
+- {name: sshnk-swifty-viper}

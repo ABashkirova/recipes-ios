@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecipeViewController" customModule="Recipes" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="TQQ-sN-aQu" id="9rA-2O-uWN"/>
+                <outlet property="roundedView" destination="Acc-Bw-Qiu" id="mYC-g3-Ego"/>
+                <outlet property="shadowView" destination="Xi4-Ac-ZML" id="us0-l5-GIq"/>
+                <outlet property="tableView" destination="Kmb-1U-hw1" id="H2v-su-V6M"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="never" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kmb-1U-hw1">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xi4-Ac-ZML" customClass="ShadowView" customModule="Recipes" customModuleProvider="target">
+                    <rect key="frame" x="331" y="8" width="28" height="28"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acc-Bw-Qiu" customClass="RoundedView" customModule="Recipes" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="28" height="28"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYq-rw-urN">
+                                    <rect key="frame" x="3" y="3" width="22" height="22"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="VYq-rw-urN" secondAttribute="height" multiplier="1:1" id="62B-pY-g4e"/>
+                                        <constraint firstAttribute="height" constant="22" id="QOh-cU-gQ7"/>
+                                    </constraints>
+                                    <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                                    <state key="normal" image="XClose"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.99607843137254903" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="VYq-rw-urN" firstAttribute="centerY" secondItem="Acc-Bw-Qiu" secondAttribute="centerY" id="aFc-nz-aCn"/>
+                                <constraint firstItem="VYq-rw-urN" firstAttribute="centerX" secondItem="Acc-Bw-Qiu" secondAttribute="centerX" id="dGP-WN-OiV"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="32"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="topRightCorner" value="YES"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="topLeftCorner" value="YES"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="bottomRightCorner" value="YES"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="bottomLeftCorner" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Xi4-Ac-ZML" secondAttribute="height" multiplier="1:1" id="0sp-lK-ed5"/>
+                        <constraint firstAttribute="width" constant="28" id="Iur-qO-kul"/>
+                        <constraint firstAttribute="bottom" secondItem="Acc-Bw-Qiu" secondAttribute="bottom" id="Lhi-BE-x2n"/>
+                        <constraint firstItem="Acc-Bw-Qiu" firstAttribute="leading" secondItem="Xi4-Ac-ZML" secondAttribute="leading" id="TK8-w9-yXp"/>
+                        <constraint firstItem="Acc-Bw-Qiu" firstAttribute="top" secondItem="Xi4-Ac-ZML" secondAttribute="top" id="j2I-m9-4pb"/>
+                        <constraint firstAttribute="trailing" secondItem="Acc-Bw-Qiu" secondAttribute="trailing" id="moh-Zo-1jE"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="topRightCorner" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="topLeftCorner" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="bottomRightCorner" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="bottomLeftCorner" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                            <size key="value" width="0.0" height="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="32"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="0.25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQQ-sN-aQu">
+                    <rect key="frame" x="321" y="8" width="46" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="vof-f0-6PD"/>
+                        <constraint firstAttribute="width" secondItem="TQQ-sN-aQu" secondAttribute="height" multiplier="46:35" id="x0z-cw-gYu"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="onTapCloseButton:" destination="-1" eventType="touchUpInside" id="Nm4-Ey-Tus"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647059999998" green="0.8980392157" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Kmb-1U-hw1" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="6ST-Dj-NXR"/>
+                <constraint firstItem="Kmb-1U-hw1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AE0-rf-Hhx"/>
+                <constraint firstItem="Xi4-Ac-ZML" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="BzR-PH-59t"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Xi4-Ac-ZML" secondAttribute="trailing" constant="16" id="SFn-HA-cBp"/>
+                <constraint firstItem="Kmb-1U-hw1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="TAH-nV-Bf0"/>
+                <constraint firstItem="TQQ-sN-aQu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="YS7-Ls-cqw"/>
+                <constraint firstItem="Kmb-1U-hw1" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="ZNj-z1-lNe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TQQ-sN-aQu" secondAttribute="trailing" constant="8" id="f2L-Q5-Rx5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="140" y="152.47376311844079"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="XClose" width="19" height="19"/>
+    </resources>
+</document>

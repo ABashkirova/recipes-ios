@@ -1,0 +1,21 @@
+//
+//  {{ prefix }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+class {{ module_info.name }}Interactor {
+
+    weak var interactorOutput: {{ module_info.name }}InteractorOutput?
+
+    func setInteractorOutput(_ interactorOutput: {{ module_info.name }}InteractorOutput) {
+        self.interactorOutput = interactorOutput
+    }
+    
+}
+
+extension {{ module_info.name }}Interactor: {{ module_info.name }}InteractorInput {
+
+}

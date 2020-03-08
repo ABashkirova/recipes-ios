@@ -1,0 +1,422 @@
+[
+    {
+        "id": 118,
+        "name": "Плов",
+        "summary": "Рецептов приготовления плова очень-очень много! Я предлагаю рецепт, который очень любим в нашей семье. Так готовит плов мой папа. Плов получается ароматный, рассыпчатый, сочный. Я затрудняюсь сказать точно, сколько получается порций, но его получается много. Съедается он быстро. К плову можно подать овощной салат, или крупно нарезанные помидоры с луком.",
+        "ingredients": [
+            {
+                "description": "1.5 кг мяса (баранины, свинины или говядины)",
+                "count": "1.5",
+                "unit": "кг",
+                "productId": 1001
+            },
+            {
+                "description": "1 кг риса (в идеале сорта девзира)",
+                "count": "1",
+                "unit": "кг",
+                "productId": 1002
+            },
+            {
+                "description": "600 г моркови",
+                "count": "600",
+                "unit": "г",
+                "productId": 1003
+            },
+            {
+                "description": "500 г лука",
+                "count": "500",
+                "unit": "г",
+                "productId": 1004
+            },
+            {
+                "description": "1 ст.л. зиры",
+                "count": "1",
+                "unit": "ст.л.",
+                "productId": 1005
+            },
+            {
+                "description": "1 ст.л. барбариса",
+                "count": "1",
+                "unit": "ст.л.",
+                "productId": 1006
+            },
+            {
+                "description": "½ ст.л. куркумы",
+                "count": "½",
+                "unit": "ст.л.",
+                "productId": 1007
+            },
+            {
+                "description": "1 головка чеснока",
+                "count": "1",
+                "unit": "головка",
+                "productId": 1008
+            },
+            {
+                "description": "красный молотый перец",
+                "productId": 1009
+            },
+            {
+                "description": "черный молотый перец",
+                "productId": 1010
+            },
+            {
+                "description": "соль",
+                "productId": 1011
+            },
+            {
+                "description": "растительное масло",
+                "productId": 1012
+            }
+        ],
+        "imageRecipe": "https://ist1.objorka.com/img0001/18/118_0134bxr_2961_6hi.jpg",
+        "imageIngredients": "https://ist1.objorka.com/img0001/18/118_010063jdy_2615_x2.jpg",
+        "steps": [
+            {
+                "number": "1",
+                "description": "Лук нарезать соломкой.",
+                "imageStep": "https://ist2.objorka.com/img0001/18/118_0263jdy_2642_x2.jpg"
+            },
+            {
+                "number": "2",
+                "description": "Мясо нарезать небольшими кусочками.",
+                "imageStep": "https://ist1.objorka.com/img0001/18/118_0363jdy_2663_x2.jpg"
+            },
+            {
+                "number": "3",
+                "description": "Морковь нарезать брусочками.",
+                "imageStep": "https://ist2.objorka.com/img0001/18/118_0463jdy_2651_x2.jpg"
+            },
+            {
+                "number": "4",
+                "description": "В большом количестве растительного масла (около 150 мл) обжарить лук до золотистого цвета.",
+                "imageStep": "https://ist1.objorka.com/img0001/18/118_0579243_2681_x2.jpg"
+            },
+            {
+                "number": "5",
+                "description": "Добавить мясо. Обжарить.",
+                "imageStep": "https://ist2.objorka.com/img0001/18/118_0679243_2694_x2.jpg"
+            },
+            {
+                "number": "6",
+                "description": "Добавить морковь. Тушить в течение 5–7 минут (крышкой не накрывать).",
+                "imageStep": "https://ist1.objorka.com/img0001/18/118_0779243_2711_x2.jpg"
+            },
+            {
+                "number": "7",
+                "description": "Добавить зиру, барбарис, куркуму. Посолить, поперчить. Перемешать.",
+                "imageStep": "https://ist2.objorka.com/img0001/18/118_0879243_2748_x2.jpg"
+            },
+            {
+                "number": "8",
+                "description": "Налить воду так, чтобы она покрывала мясо. Накрыть крышкой. Тушить в течение 35–40 минут (на среднем огне).",
+                "imageStep": "https://ist1.objorka.com/img0001/18/118_0979243_2768_x2.jpg"
+            },
+            {
+                "number": "9",
+                "description": "В холодной воде 5–6 раз промыть рис.",
+                "imageStep": "https://ist2.objorka.com/img0001/18/118_01079243_2783_x2.jpg"
+            },
+            {
+                "number": "10",
+                "description": "Всыпать рис (с мясом НЕ перемешивать!). Разровнять.",
+                "imageStep": "https://ist1.objorka.com/img0001/18/118_01179243_2815_x2.jpg"
+            },
+            {
+                "number": "11",
+                "description": "Аккуратно влить горячую или теплую воду так, чтобы она покрывала рис на 2 см. Немного посолить. Накрыть крышкой. Варить до тех пор, пока рис не впитает воду.",
+                "imageStep": "https://ist2.objorka.com/img0001/18/118_01279243_2830_x2.jpg"
+            },
+            {
+                "number": "12",
+                "description": "В серединку положить чеснок, вдавить его в рис. Деревянной палочкой сделать отверстия (рис и мясо не перемешивать) для выхода пара. Готовить под крышкой до готовности (около 20–25 минут).",
+                "imageStep": "https://ist1.objorka.com/img0001/18/118_01379243_2849_x2.jpg"
+            },
+            {
+                "number": "13",
+                "description": "При подаче все перемешать.",
+                "imageStep": "https://ist2.objorka.com/img0001/18/118_01451m1t_2969_x2.jpg"
+            },
+            {
+                "number": "14",
+                "description": "Приятного аппетита!",
+                "imageStep": "https://ist1.objorka.com/img0001/18/118_0134bxr_2961_6hi.jpg"
+            }
+        ],
+        "createdDate": "10.08.2008",
+        "countComments": "2993",
+        "url": "https://www.say7.info/cook/recipe/118-Plov.html",
+        "categories": [
+            40
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Салат «Мимоза»",
+        "summary": "Вкус этого салата у меня ассоциируется с детством. На многие праздники мы готовили этот салат, и именно по такому рецепту, хотя вариаций приготовления салата — великое множество. Пробовали и другие рецепты «Мимозы», но всегда возвращались к этому. Салат получается нежный, сытный. Из указанного количества ингредиентов получается 6–8 порций.",
+        "servings": "6–8 порций",
+        "ingredients": [
+            {
+                "description": "200 г консервированной в масле рыбы (лучше всего сайры)",
+                "count": "200",
+                "unit": "г",
+                "productId": 1013
+            },
+            {
+                "description": "300 г картофеля",
+                "count": "300",
+                "unit": "г",
+                "productId": 1014
+            },
+            {
+                "description": "200 г моркови",
+                "count": "200",
+                "unit": "г",
+                "productId": 1003
+            },
+            {
+                "description": "150 г лука",
+                "count": "150",
+                "unit": "г",
+                "productId": 1004
+            },
+            {
+                "description": "4 яйца",
+                "count": "4",
+                "unit": "шт.",
+                "productId": 1017
+            },
+            {
+                "description": "соль",
+                "productId": 1011
+            },
+            {
+                "description": "майонез",
+                "productId": 1018
+            }
+        ],
+        "imageRecipe": "https://ist1.objorka.com/img0000/56/56_0145xqi_4010_6hi.jpg",
+        "imageIngredients": "https://ist1.objorka.com/img0000/56/56_010021t5y_3620_x2.jpg",
+        "steps": [
+            {
+                "number": "1",
+                "description": "Картофель и морковь отварить до готовности. Остудить, почистить.",
+                "imageStep": "https://ist2.objorka.com/img0000/56/56_0221t5y_3638_x2.jpg"
+            },
+            {
+                "number": "2",
+                "description": "Лук мелко нарезать.",
+                "imageStep": "https://ist1.objorka.com/img0000/56/56_0321t5y_3741_x2.jpg"
+            },
+            {
+                "number": "3",
+                "description": "Залить его кипятком. Оставить на 10 минут. Воду слить. Лук промыть в холодной воде (это делается для того, чтобы лук не горчил).",
+                "imageStep": "https://ist2.objorka.com/img0000/56/56_0421t5y_3756_x2.jpg"
+            },
+            {
+                "number": "4",
+                "description": "Морковь натереть на мелкой терке.",
+                "imageStep": "https://ist1.objorka.com/img0000/56/56_0521t5y_3785_x2.jpg"
+            },
+            {
+                "number": "5",
+                "description": "Картофель натереть на мелкой терке.",
+                "imageStep": "https://ist2.objorka.com/img0000/56/56_0621t5y_3779_x2.jpg"
+            },
+            {
+                "number": "6",
+                "description": "Отделить белки от желтков. Белки натереть на мелкой терке.",
+                "imageStep": "https://ist1.objorka.com/img0000/56/56_0721t5y_3798_x2.jpg"
+            },
+            {
+                "number": "7",
+                "description": "Желтки натереть на мелкой терке.",
+                "imageStep": "https://ist2.objorka.com/img0000/56/56_0873rc3_3806_x2.jpg"
+            },
+            {
+                "number": "8",
+                "description": "С рыбы слить масло. Рыбу размять вилкой.",
+                "imageStep": "https://ist1.objorka.com/img0000/56/56_0973rc3_3818_x2.jpg"
+            },
+            {
+                "number": "9",
+                "description": "На дно салатницы выложить рыбу. Смазать майонезом.",
+                "imageStep": "https://ist2.objorka.com/img0000/56/56_01073rc3_3832_x2.jpg"
+            },
+            {
+                "number": "10",
+                "description": "На рыбу выложить белки. Немного смазать майонезом.",
+                "imageStep": "https://ist1.objorka.com/img0000/56/56_01173rc3_3839_x2.jpg"
+            },
+            {
+                "number": "11",
+                "description": "На белки выложить морковь. Смазать майонезом.",
+                "imageStep": "https://ist2.objorka.com/img0000/56/56_01273rc3_3849_x2.jpg"
+            },
+            {
+                "number": "12",
+                "description": "На морковь выложить лук.",
+                "imageStep": "https://ist1.objorka.com/img0000/56/56_01373rc3_3858_x2.jpg"
+            },
+            {
+                "number": "13",
+                "description": "На лук выложить картофель. Немного посолить. Смазать майонезом.",
+                "imageStep": "https://ist2.objorka.com/img0000/56/56_01473rc3_3869_x2.jpg"
+            },
+            {
+                "number": "14",
+                "description": "На картофель выложить желтки. Смазывать не надо.",
+                "imageStep": "https://ist1.objorka.com/img0000/56/56_01545xqi_3881_x2.jpg"
+            },
+            {
+                "number": "15",
+                "description": "Приятного аппетита!",
+                "imageStep": "https://ist2.objorka.com/img0000/56/56_01623na8_4012_x2.jpg"
+            }
+        ],
+        "createdDate": "13.07.2006",
+        "countComments": "1590",
+        "url": "https://www.say7.info/cook/recipe/56-Salat-Mimoza.html",
+        "categories": [
+            38
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Яблочный пирог",
+        "summary": "Вкуснейший пирог! Нежное тесто, ароматные, сочные яблоки и воздушный крем! Можно подать пирог с шариком подтаявшего ванильного мороженого. Из указанного количества ингредиентов получается 8–10 порций.",
+        "servings": "8–10 порций",
+        "ingredients": [
+            {
+                "description": "1 кг яблок (желательно, кислых или кисло-сладких)",
+                "count": "1",
+                "unit": "кг",
+                "productId": 1019
+            },
+            {
+                "description": "150 г сахара",
+                "count": "150",
+                "unit": "г",
+                "productId": 1020
+            },
+            {
+                "description": "200 г сливочного масла",
+                "count": "200",
+                "unit": "г",
+                "productId": 1021
+            },
+            {
+                "description": "5 яиц",
+                "count": "5",
+                "unit": "шт.",
+                "productId": 1017
+            },
+            {
+                "description": "2 ч.л. разрыхлителя",
+                "count": "2",
+                "unit": "ч.л.",
+                "productId": 1023
+            },
+            {
+                "description": "600–700 г муки",
+                "count": "600–700",
+                "unit": "г",
+                "productId": 1024
+            },
+            {
+                "description": "500 г сметаны (15–20%)",
+                "count": "500",
+                "unit": "г",
+                "productId": 1025
+            },
+            {
+                "description": "150 г сахара",
+                "count": "150",
+                "unit": "г",
+                "productId": 1020
+            }
+        ],
+        "imageRecipe": "https://ist1.objorka.com/img0000/60/60_0147hxx_5544_6hi.jpg",
+        "imageIngredients": "https://ist1.objorka.com/img0000/60/60_010063zaq_5221_x2.jpg",
+        "steps": [
+            {
+                "number": "1",
+                "description": "Масло растереть с сахаром.",
+                "imageStep": "https://ist2.objorka.com/img0000/60/60_0263zaq_5230_x2.jpg"
+            },
+            {
+                "number": "2",
+                "description": "Добавить яйца. Перемешать.",
+                "imageStep": "https://ist1.objorka.com/img0000/60/60_0363zaq_5234_x2.jpg"
+            },
+            {
+                "number": "3",
+                "description": "Добавить разрыхлитель и муку. Замесить тесто.",
+                "imageStep": "https://ist2.objorka.com/img0000/60/60_0463zaq_5239_x2.jpg"
+            },
+            {
+                "number": "4",
+                "description": "Яблоки почистить, удалить сердцевину. Тонко нарезать.",
+                "imageStep": "https://ist1.objorka.com/img0000/60/60_0563zaq_5279_x2.jpg"
+            },
+            {
+                "number": "5",
+                "description": "Противень (я использовала противень размером 30×22 см, глубиной 4 см) застелить бумагой для выпечки или смазать маслом. Выложить 2/3 теста. Разровнять.",
+                "imageStep": "https://ist2.objorka.com/img0000/60/60_0663zaq_5250_x2.jpg"
+            },
+            {
+                "number": "6",
+                "description": "На тесто выложить яблоки. Разровнять.",
+                "imageStep": "https://ist1.objorka.com/img0000/60/60_0763zaq_5284_x2.jpg"
+            },
+            {
+                "number": "7",
+                "description": "Из оставшегося теста сделать «косички». Для этого надо скатать жгутик.",
+                "imageStep": "https://ist2.objorka.com/img0000/60/60_08675t8_5263_x2.jpg"
+            },
+            {
+                "number": "8",
+                "description": "Затем его приплюснуть.",
+                "imageStep": "https://ist1.objorka.com/img0000/60/60_09675t8_5267_x2.jpg"
+            },
+            {
+                "number": "9",
+                "description": "Ножом сделать надрезы.",
+                "imageStep": "https://ist2.objorka.com/img0000/60/60_010675t8_5273_x2.jpg"
+            },
+            {
+                "number": "10",
+                "description": "Выложить «косички» на пирог. Поставить пирог в разогретую до 180 градусов духовку. Выпекать в течение 30–35 минут.",
+                "imageStep": "https://ist1.objorka.com/img0000/60/60_01172wrc_5292_x2.jpg"
+            },
+            {
+                "number": "11",
+                "description": "Для крема сметану смешать с сахаром.",
+                "imageStep": "https://ist2.objorka.com/img0000/60/60_01272wrc_5300_x2.jpg"
+            },
+            {
+                "number": "12",
+                "description": "Горячий пирог залить кремом.",
+                "imageStep": "https://ist1.objorka.com/img0000/60/60_013649ll_5328_x2.jpg"
+            },
+            {
+                "number": "13",
+                "description": "Дать остыть, затем разрезать на порции.",
+                "imageStep": "https://ist2.objorka.com/img0000/60/60_01479dm3_5550_x2.jpg"
+            },
+            {
+                "number": "14",
+                "description": "Приятного аппетита!",
+                "imageStep": "https://ist1.objorka.com/img0000/60/60_0147hxx_5544_6hi.jpg"
+            }
+        ],
+        "createdDate": "17.07.2006",
+        "countComments": "1855",
+        "url": "https://www.say7.info/cook/recipe/60-YAblochnyiy-pirog.html",
+        "categories": [
+            112,
+            39
+        ]
+    }
+    
+]

@@ -1,0 +1,27 @@
+//
+//  {{ prefix }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+class {{ module_info.name }}Configurator {
+    
+    func configure() -> {{ module_info.name }}ViewController {
+        let router = {{ module_info.name }}Router()
+
+        let interactor = {{ module_info.name }}Interactor()
+
+        let presenter = {{ module_info.name }}Presenter(interactor: interactor, router: router)
+
+        let viewController = {{ module_info.name }}ViewController(viewOutput: presenter)
+
+        router.setViewController(viewController)
+        presenter.setViewInput(viewController)
+        interactor.setInteractorOutput(presenter)
+
+        return viewController
+    }
+
+}

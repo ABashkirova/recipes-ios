@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="IngredientTableViewCell" customModule="Recipes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKy-Eq-doQ">
+                        <rect key="frame" x="16" y="19" width="41" height="20"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                        <color key="textColor" red="0.80000000000000004" green="0.019607843140000001" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5q4-i8-OUT">
+                        <rect key="frame" x="281" y="17.5" width="23" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="5q4-i8-OUT" secondAttribute="height" multiplier="1:1" id="UVa-jr-Euj"/>
+                            <constraint firstAttribute="width" constant="23" id="aEb-JA-0uS"/>
+                        </constraints>
+                        <state key="normal" image="Circle"/>
+                        <state key="selected" image="CircleFill"/>
+                        <connections>
+                            <action selector="onSelectTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Tj7-Ur-MgJ"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.94117647059999998" green="0.89411764709999997" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="5q4-i8-OUT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IKy-Eq-doQ" secondAttribute="trailing" constant="8" id="1pN-O2-Djg"/>
+                    <constraint firstItem="IKy-Eq-doQ" firstAttribute="left" secondItem="H2p-sc-9uM" secondAttribute="left" constant="16" id="EQI-Yb-H0V"/>
+                    <constraint firstAttribute="right" secondItem="5q4-i8-OUT" secondAttribute="right" constant="16" id="NKH-GD-nz3"/>
+                    <constraint firstAttribute="bottom" secondItem="IKy-Eq-doQ" secondAttribute="bottom" constant="19" id="iHM-D5-sIp"/>
+                    <constraint firstItem="IKy-Eq-doQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="rB9-B7-vHF"/>
+                    <constraint firstItem="5q4-i8-OUT" firstAttribute="centerY" secondItem="IKy-Eq-doQ" secondAttribute="centerY" id="z8H-NH-7Is"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="IKy-Eq-doQ" id="zQr-3G-6xO"/>
+                <outlet property="selectButton" destination="5q4-i8-OUT" id="lOb-hk-W9i"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="161.01949025487258"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Circle" width="23" height="22"/>
+        <image name="CircleFill" width="23" height="22"/>
+    </resources>
+</document>

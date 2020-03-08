@@ -1,0 +1,4 @@
+github "ReactiveCocoa/ReactiveSwift" "6.1.0"
+github "Swinject/Swinject" "2.7.1"
+github "onevcat/Kingfisher" "5.9.0"
+github "realm/realm-cocoa" "v3.21.0"

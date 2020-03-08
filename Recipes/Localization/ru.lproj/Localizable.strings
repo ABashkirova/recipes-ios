@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  Recipes
+
+  Created by Александра Башкирова on 07/01/2019.
+  Copyright © 2019 Александра Башкирова. All rights reserved.
+*/
+
+// main entity
+"Recipes" = "Рецепты";
+"Recipe" = "Рецепт";
+"Ingredients" = "Ингредиенты";
+"Composition" = "Состав";
+"Step" = "Шаг";
+"Categories" = "Категории";
+"Favorites" = "Любимые рецепты";
+"Search Recipes" = "Поиск рецептов";
+"About" = "Say7";
+"AboutApp" = "Приложение Say7";
+// icon categories
+"first_dish" = "Первые блюда";
+"second_dish" = "Вторые блюда";
+"salads" = "Салаты";
+"pastry" = "Сладкая выпечка";
+"pie" = "Несладкая выпечка";
+"fish" = "Рыба и морепродукты";
+"sandwish" = "Закуски и бутерброды";
+"pancakes" = "Блины, оладьи, сырники";
+"cake" = "Торты и пирожные";
+"dessert" = "Десерты, напитки";
+"other" = "Разное";
+
+
